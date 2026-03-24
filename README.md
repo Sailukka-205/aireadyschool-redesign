@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI Ready School — Homepage Redesign
 
-## Getting Started
+Live site: [your-vercel-link-here]
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## UX Audit — Key Problems Identified
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Unclear value proposition in hero.** The original headline did not communicate a clear outcome. A school decision-maker could not quickly understand what problem is being solved.
+2. **Navigation overload.** Too many links with no clear primary action created decision paralysis.
+3. **Product confusion.** The five products were introduced by name but lacked simple explanations, making the system feel complex.
+4. **Weak trust signals above the fold.** No immediate credibility indicators (stats, school names) visible in the first screen.
+5. **No clear conversion path.** Multiple competing CTAs reduced focus and clarity.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## What I Changed (High-Impact Improvements)
 
-## Learn More
+- **Rewrote the hero messaging** to focus on outcomes:
 
-To learn more about Next.js, take a look at the following resources:
+  > “Smart learning for — A Smart Future”
+  > This directly addresses real concerns (complexity, teacher workload).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Added trust signals in the hero**
+  - Stats (500+ schools, 1.2L+ students)
+  - Clear benefit bullets
+    → Builds confidence immediately.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Simplified navigation**
+  - Reduced to essential links + one primary CTA
+    → Eliminates decision fatigue.
 
-## Deploy on Vercel
+- **Reframed the product section**
+  - Changed from “5 tools” → “one platform”
+  - Added clear one-line descriptions
+    → Reduces cognitive load.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Introduced a visual ecosystem in the hero**
+  - A simple right-side layout showing how all products connect
+    → Helps users understand the system instantly instead of reading through text
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Design Decisions
+
+- **Focused on clarity over decoration**
+  Every section is designed to answer:
+  “What is this?” and “Why should I care?” within seconds.
+
+- **Consistent visual hierarchy**
+  Large, clear headlines → supporting text → action → trust
+
+- **Color system**
+  Indigo used as a primary accent to signal trust and modern tech without being aggressive.
+
+- **Reduced visual noise**
+  Clean layout to match the mindset of school decision-makers (busy, skeptical, time-constrained)
+
+---
+
+## What I Would Improve Next
+
+- Add real school logos and case studies for stronger credibility
+- Introduce measurable outcomes in testimonials (e.g., % improvement)
+- Improve mobile navigation with a refined drawer interaction
+- Add a guided “How it works” flow for better onboarding
+- Implement subtle motion for section transitions
+
+---
+
+## Stack
+
+- Next.js (App Router)
+- Tailwind CSS
+- Deployed on Vercel
