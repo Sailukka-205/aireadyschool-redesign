@@ -1,6 +1,6 @@
 # AI Ready School — Homepage Redesign
 
-Live site: [your-vercel-link-here]
+Live site: [(https://aireadyschool-redesign.vercel.app/)]
 
 ---
 
